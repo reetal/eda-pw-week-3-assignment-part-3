@@ -51,6 +51,7 @@ for (let i = 0; i < supplyChanges.length; i++) {
         console.log('Removed x parts');
     }
 }
+    
 // for(let item of supplyChange)
 
 
@@ -59,6 +60,10 @@ for (let i = 0; i < supplyChanges.length; i++) {
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 console.log('7. Showing supplyChanges with "for of" loop');
+
+for (let item of supplyChanges){
+    console.log(item);
+}
 
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
